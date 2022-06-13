@@ -1,0 +1,60 @@
+[
+  {
+    "path": "/products",
+    "component": "/home/ohmaaagoch/nuxtjs/my-app/pages/products.vue",
+    "chunkName": "pages/products",
+    "children": [
+      {
+        "name": "products",
+        "path": "",
+        "component": "/home/ohmaaagoch/nuxtjs/my-app/pages/products/index.vue",
+        "chunkName": "pages/products/index",
+        "_name": "_c3419098"
+      },
+      {
+        "name": "products-pid",
+        "path": ":pid",
+        "component": "/home/ohmaaagoch/nuxtjs/my-app/pages/products/_pid/index.vue",
+        "chunkName": "pages/products/_pid/index",
+        "_name": "_14543c46"
+      }
+    ],
+    "_name": "_55f7a9f1"
+  },
+  {
+    "path": "/users",
+    "component": "/home/ohmaaagoch/nuxtjs/my-app/pages/users.vue",
+    "chunkName": "pages/users",
+    "children": [
+      {
+        "name": "users",
+        "path": "",
+        "component": "/home/ohmaaagoch/nuxtjs/my-app/pages/users/index.vue",
+        "chunkName": "pages/users/index",
+        "_name": "_8b81d9e4"
+      },
+      {
+        "name": "users-id",
+        "path": ":id",
+        "component": "/home/ohmaaagoch/nuxtjs/my-app/pages/users/_id.vue",
+        "chunkName": "pages/users/_id",
+        "_name": "_061afe14"
+      },
+      {
+        "name": "users-id.vue",
+        "path": ":id.vue",
+        "component": "/home/ohmaaagoch/nuxtjs/my-app/pages/users/_id.vue/index.vue",
+        "chunkName": "pages/users/_id.vue/index",
+        "_name": "_0cdf2c91"
+      }
+    ],
+    "_name": "_604d90cb"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/ohmaaagoch/nuxtjs/my-app/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_1ae3b695"
+  }
+]
