@@ -1,8 +1,8 @@
 <template lang="">
 	<div class="">
 		<nuxt-link :to="'/posts/' + id" class="">
-			<article id="post-preview" class=" w-96 m-10 hover:bg-[#ccc] hover:rounded-xl">
-				<div class="border border-solid border-black hover:border-[#ccc] rounded-xl ">
+			<article id="post-preview" class="w-96 m-10 hover:bg-[#ccc] hover:rounded-xl">
+				<div class="m-10 border border-solid border-black hover:border-[#ccc] rounded-xl ">
 					<div id="post-thumnail" class=" w-full h-52 bg-center bg-cover rounded-t-xl" 
 					v-bind:style="{ backgroundImage: 'url(' + thumbnail + ')' }"
 					></div>

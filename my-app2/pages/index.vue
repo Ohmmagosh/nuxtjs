@@ -1,8 +1,8 @@
 <template>
   <div class="text-center  min-w-screen m-0 p-0 box-border">
-    <section id="intro" class="h-64 flex justify-center items-center bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80');">
+    <section id="intro" class="h-64 flex justify-center items-center bg-cover bg-center m-0 p-0 border-box" style="background-image: url('https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80');">
       <div class="bg-gray-300 h-16 flex justify-center flex-col top-6 items-center border border-black rounded-md w-2/5 shadow-xl">
-        <h1 class="text-3xl">Get the latest tech news!</h1>
+        <h1 class="text-xs sm:text-3xl">Get the latest tech news!!!!!</h1>
       </div>
     </section>
     <section id="featured-post" class="flex flex-wrap justify-center items-center">
@@ -37,10 +37,8 @@ export default {
     }
 }
 </script>
-<style >
-*{
-    margin: 0;
-    padding: 0;
+<style scoped>
+* div{
     box-sizing: border-box;
 }
 </style>
