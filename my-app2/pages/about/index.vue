@@ -13,6 +13,10 @@ export default {
     
 }
 </script>
-<style lang="">
-    
+<style>
+.container{
+    margin: 0;
+    padding: 0;
+
+}    
 </style>

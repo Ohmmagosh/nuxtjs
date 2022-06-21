@@ -1,5 +1,5 @@
 <template lang="">
-    <div>
+    <div class="containers">
         <nuxt/>
     </div>
 </template>
@@ -9,7 +9,9 @@ export default {
 }
 </script>
 <style >
-* div{
+.containers{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
+}    
 </style>

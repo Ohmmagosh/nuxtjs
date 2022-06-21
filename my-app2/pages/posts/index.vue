@@ -1,5 +1,5 @@
 <template lang="">
-    <div class="flex justify-center items-center">
+    <div class=" flex justify-center items-center">
         <h1>hello</h1>
     </div>
 </template>
@@ -8,6 +8,9 @@ export default {
     
 }
 </script>
-<style lang="">
-    
+<style >
+.container{
+    margin: 0;
+    padding: 0;
+}    
 </style>

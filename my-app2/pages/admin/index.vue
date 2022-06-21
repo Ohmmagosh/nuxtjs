@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="">
         <h1>hello admin</h1>
     </div>
 </template>
@@ -8,6 +8,9 @@ export default {
     
 }
 </script>
-<style lang="">
-    
+<style>
+.container{
+    margin: 0;
+    padding: 0;
+}    
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="font-sans flex flex-col center justify-center items-center">
+    <div class=" font-sans flex flex-col center justify-center items-center">
         <section class="text-center">
             <h1 class="text-3xl">Title of the post</h1>
             <div>
@@ -18,6 +18,6 @@ export default {
     
 }
 </script>
-<style lang="">
-    
+<style>
+   
 </style>

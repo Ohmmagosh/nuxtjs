@@ -1,7 +1,7 @@
 <template lang="">
 	<div class="">
 		<nuxt-link :to="'/posts/' + id" class="">
-			<article id="post-preview" class="w-96 m-10 hover:bg-[#ccc] hover:rounded-xl">
+			<article id="post-preview" class="min-w-screen sm:w-96 m-10 hover:bg-[#ccc] hover:rounded-xl">
 				<div class="m-10 border border-solid border-black hover:border-[#ccc] rounded-xl ">
 					<div id="post-thumnail" class=" w-full h-52 bg-center bg-cover rounded-t-xl" 
 					v-bind:style="{ backgroundImage: 'url(' + thumbnail + ')' }"
@@ -19,7 +19,7 @@
 <script>
 export default {
 	namr: 'PostPreview',
-	props: {
+	props: { 
 		id: {
 			type: String,
 			require: true
@@ -39,6 +39,10 @@ export default {
 	}
 }
 </script>
-<style lang="">
-	
+<style>
+.containers{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}       
 </style>
